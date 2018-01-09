@@ -1,0 +1,41 @@
+
+<div class="container">
+	<div>
+		<h1>Eat da Burger</h1>
+	</div>
+	
+	<div id="burgers">
+		<div id="burgers-to-eat">
+
+			{{#each burgers}}
+			<ul>
+				<li data-id={{this.id}}>
+					{{this.burger_name}}
+				</li>
+			</ul>
+			{{/each}}
+
+		</div>
+
+		<div id="eaten-burgers">
+			{{#each eatenBurgers}}
+			<ul>
+				<li data-id={{this.id}}>
+					{{this.burger_name}}
+				</li>
+			</ul>
+			{{/each}}
+		</div>
+
+		<form id=burger-form>
+			Enter new burger: 
+			<br>
+			<input type="text" name="burger">
+			<br>
+			<input type="submit" value="submit">
+		</form>
+
+
+	</div>
+
+	

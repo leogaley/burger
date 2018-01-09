@@ -1,0 +1,32 @@
+h1 {
+	font-size: 50px;
+	color:blue;
+	text-align:center;
+}
+.container {
+	width: 80%;
+	margin:auto;
+}
+#burgers {
+	max-width: 90%;
+	margin:auto;
+}
+
+#burgers-to-eat {
+	max-width:50%;
+	text-align:center;
+}
+
+#eaten-burgers {
+	float:right;
+	width:50%;
+}
+
+li {
+	margin:10px;
+	/*border: 2px solid blue;*/
+}
+
+ul {
+	list-style: none;
+}
