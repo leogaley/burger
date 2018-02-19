@@ -1,7 +1,9 @@
 
 $(document).ready(function(){
 
-	$('li').on("click",function(){
+	
+
+	$(".eat").on("click",function(){
 		var url = "/api/update/" + $(this).attr("data-id");
 	
 		$.ajax({
